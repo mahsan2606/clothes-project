@@ -295,7 +295,7 @@ http://www.templatemo.com/tm-473-november
 	header .site-logo h1 { margin: 0px; line-height: 36px; }
 	header.smaller { height: 55px;}
 	header.smaller .site-logo { padding: 10px 0% 0px 3%; }
-	header.smaller .site-logo h1 a { font-size: 36px; }
+	header.smaller .site-logo h1 a { font-size: 25px; }
 	
 	#mobile_sec { position: fixed; width: 100%;}
 	#mobile_sec .mobile { display: block; position: relative; float: right; }
@@ -311,7 +311,7 @@ http://www.templatemo.com/tm-473-november
 	.Banner_sec { width: 100%; height: 556px; }
 	.Banner_sec .Center {width: 100%; padding: 0px 3%; }
 	.Banner_sec .bannerside { top: 90px; }
-	.Banner_sec .leftside { padding: 0px 0px 10px 0px; width: 100%; float: none; }
+	.Banner_sec .leftside { padding: 0px 0px 10px 0px; width: 100%; float: none; text-align: center; }
 	.Banner_sec .leftside h3 { font-size: 30px; }
 	.Banner_sec .leftside p { font-size: 14px; line-height: 18px; padding: 10px 0px; }
 	.Banner_sec .leftside a { font-size: 13px; }
@@ -326,7 +326,7 @@ http://www.templatemo.com/tm-473-november
 	.Banner_sec .rightside .Shadow { width: 105.5%; left: -16px; }
 	.Banner_sec .rightside .prevBtn { top: 100px; left: 10px; }
 	.Banner_sec .rightside .nextBtn { top: 100px; right: 10px; }
-	.Banner_sec .rightside #slider li img { height: 290px; width: 100%;}	
+	.Banner_sec .rightside #slider li img { height: 200px; width: 100%;}	
 
 	
 	.bgcolor { height: 50px; }
@@ -338,14 +338,14 @@ http://www.templatemo.com/tm-473-november
 	.Pricing_sec { 
 		width: 100%; padding: 60px 0px 30px; 
 	}
-	.About_sec .Center { width: 100%; padding: 0px 3%; }
+	.About_sec .Center { width: 100%; padding: 2px 5%; }
 	.About_sec h2 { font-size: 30px; line-height: 30px; }
 	.About_sec p { padding: 15px 0px; font-size: 13px; }
 	.About_sec .Tabside { padding: 30px 0 0px 0; }
-	.About_sec .Tabside ul { padding-bottom: 25px;}
+	.About_sec .Tabside ul { padding-bottom: 25px; text-align: center; padding-left: 0rem}
 	.About_sec .Tabside li a { font-size: 13px; padding: 14px; }
-	.About_sec .Tabside .TabImage { width: 100%; float: none; padding-bottom: 25px; text-align: center;}
-	.About_sec .Tabside .TabImage .img1 { left: 0px; position: relative; height: 244px; background: none;background-size: 100%; }
+	.About_sec .Tabside .TabImage { width: 100%; float: none; padding-bottom: 0px; text-align: center;}
+	.About_sec .Tabside .TabImage .img1 { left: 0px; position: relative; height: 225px; background: none;background-size: 100%; }
 	.About_sec .Tabside .TabImage .img1 img { margin: auto;}
 	.About_sec .Tabside .TabImage .img2 { left: 20px;  background: none; background-size: 100%; }
 	.About_sec .Tabside .TabImage .img2 img { width: 94%; height: auto; }

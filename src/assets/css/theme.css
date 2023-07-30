@@ -145,14 +145,95 @@ header.smaller .Navigation li { height: 60px; }
 
 	/* <<< About Section >>> */
 	.About_sec { padding: 115px 0px 88px 0px ; width: 100%; overflow: hidden; }
+
+	.About_sec .product-row { 
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px; 
+	}
+	
+	.About_sec .product-item { 
+		flex: 0 0 33.33333%;
+		max-width: 33.333333%;
+		transition: ease-in-out all .4s;
+		position: initial;
+		margin-bottom: 25px;
+	}
+
+	.item-product {
+		overflow: hidden;
+	}
+
+	.item-product .thumbnail-container{
+		position: relative;
+		overflow: hidden;
+	}
+
+	.item-product .thumbnail-container a{
+		position: relative;
+		display: block;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.response-image{
+		padding-top: 100.0%;
+		position: relative;
+	}
+
+	.respone_image img {
+		width: 100%;
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	  }
+
+	  .item-product .thumbnail-container img {
+		margin: 0 auto;
+	  }
+
+	  img {
+		max-width: 100%;
+	  }
+
+	  .item-product .thumbnail-container .product__thumbnail-second {
+		position: absolute;
+		top: 0px;
+		left: 0;
+		opacity: 0;
+	  }
+
+	  .img-fluid {
+		max-width: 100%;
+		height: auto;
+	  }
+
+
+
+
+
+	.col { 
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	
+
+
 	.About_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
 	.About_sec h2 { font-size: 56px; color: #000; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; letter-spacing: -0.4px; }
 	.About_sec p { padding: 24px 0px 15px 0px; font-size: 14px; color: #979797; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
 	.About_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
 	.About_sec .Tabside { padding: 30px 0px; width: 100%;}
-	.About_sec .Tabside .img { position: absolute;}
-	.About_sec .Tabside .img:hover .hover_img { display: inline;}
-	.About_sec .Tabside .hover_img { position: absolute; top:0; left:0;display: none;}
+	.About_sec .img { position: absolute;}
+	.About_sec .img:hover .hover_img { display: inline; transition: ease-in-out all .4s}
+	.About_sec .hover_img { position: absolute; top:0; left:0;display: none;}
 	.About_sec .Tabside ul { list-style: none; margin: 0px; padding-bottom: 59px; }
 	.About_sec .Tabside li { float: none; padding: 0px; margin: 0px -2px; display: inline-block;}
 	.About_sec .Tabside li a { padding: 14px 40px 13px 40px; font-size: 18px; color: #989898; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; text-transform: uppercase; border: solid 1px #d5d5d5; display: block; transition: all 0.3s ease; }
@@ -170,13 +251,13 @@ header.smaller .Navigation li { height: 60px; }
 
 
 	/* <<< Services Section >>> */
-	.Services_sec{ padding: 114px 0px 90px 0px ; width: 100%; margin-top: 250px; overflow: hidden; background: url(../img/Services-bg.jpg) top center no-repeat; background-size: cover; }
+	.Services_sec{ padding: 114px 0px 90px 0px ; width: 100%; overflow: hidden; background: url(../img/Services-bg.jpg) top center no-repeat; background-size: cover; }
 	.Services_sec .Center { max-width: 1130px; margin: auto; overflow: hidden; text-align: center; }
 	.Services_sec h2 { font-size: 56px; color: #fff; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; }
 	.Services_sec p { padding: 25px 0px 35px 0px; font-size: 14px; color: #d8dfe5; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
 	.Services_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
 	.Services_sec .Serviceside { padding: 76px 0px 30px 0px; width: 100%; overflow: hidden; }
-	.Services_sec .Serviceside ul { list-style: none; margin: 0px }
+	.Services_sec .Serviceside ul { list-style: none; margin: 0px; padding-left: 0px; }
 	.Services_sec .Serviceside li { float: left; padding: 0px; margin: 0px 40px 0px 0px; text-align: center; width: 245px; }
 	.Services_sec .Serviceside li:last-child { margin-right: 0px;}
 	.Services_sec .Serviceside li.Development { padding: 44px 0px 161px 0px; background: url(../img/Development-bg.jpg) no-repeat;box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); }	.Services_sec .Serviceside li.Development a { text-decoration: none; background: url(../img/Development-cn.png) top center no-repeat; display: block; }
@@ -205,7 +286,7 @@ header.smaller .Navigation li { height: 60px; }
 	.Pricing_sec p { padding: 26px 0px 35px 0px; font-size: 14px; color: #8f8f8f; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
 	.Pricing_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
 	.Pricing_sec .Pricingside { padding: 75px 0px 0px 0px; width: 100%; overflow: hidden; text-align: initial; }
-	.Pricing_sec .Pricingside ul { list-style: none; margin: 0px; }
+	.Pricing_sec .Pricingside ul { list-style: none; margin: 0px; padding-left: 0px; }
 	.Pricing_sec .Pricingside li { float: none; padding: 0px; margin: 0px 0px 11px 0px; height: 103px; background: #fff; text-align: center; }
 	.Pricing_sec .Pricingside li .Basic { width: 55px; float: left; display: table; height: 103px; background: #ff9408; transition: all ease 0.3s; }
 	.Pricing_sec .Pricingside li .Basic h5 { display: table-cell; vertical-align: middle; font-size: 17px; color: #2d2d2d; font-family: 'Oswald', sans-serif; font-weight: 400; text-transform: uppercase; margin: 0px; -webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); -o-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg); clear: none; text-align: center; }
